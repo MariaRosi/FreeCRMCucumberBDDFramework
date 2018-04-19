@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(
 	    //this code will only look into "features/" folder for features
-	    features={"D:\\Maria\\Selenium\\Workspace\\FreeCRMCucumberBDDFramework\\src\\main\\java\\features"},
+	    features={"D:\\Maria\\Selenium\\Workspace\\FreeCRMCucumberBDDFramework\\src\\main\\java\\features\\deal.feature"},
 	    glue = { "stepDefinition" },
 	    format = {"pretty","html:test-output"},
 	    dryRun=false,
